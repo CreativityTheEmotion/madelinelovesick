@@ -12,4 +12,5 @@ latex -output-directory=./temp ./in/document_chrono.tex
 dvipdfm -p b5 -o ./out/document_chrono.pdf ./temp/document_chrono.dvi
 latex -output-directory=./temp ./in/document_struct.tex
 dvipdfm -p b5 -o ./out/document_struct.pdf ./temp/document_struct.dvi
-pdftoppm -png ./out/document_chrono.pdf ./out/pages/page
+lastPageNumber=$(grep "Output written on" ./temp/document_chrono.log | grep -oP "\d+" | sed -n '1 p')
+pdftoppm -f $lastPageNumber -l $lastPageNumber -png ./out/document_chrono.pdf ./out/pages/page

@@ -33,7 +33,7 @@
                         <gml:OrientableCurve gml:orientation="+">
                             <gml:baseCurve>
                                 <gml:LineString>
-                                    <gml:posList gml:dimension="2">-16.424182999049489 -7.535009718543404 -15.538441791470323 9.3527765184786151 -7.960774804033373 20.074732786571879 </gml:posList>
+                                    <gml:posList gml:dimension="2">-16.424182999049489 -7.535009718543404 -15.538441791470323 9.3527765184786151 -7.960774804033373 20.074732786571882 </gml:posList>
                                 </gml:LineString>
                             </gml:baseCurve>
                         </gml:OrientableCurve>
@@ -47,7 +47,7 @@
     <gml:featureMember>
         <gpml:MidOceanRidge>
             <gpml:identity>GPlates-92048a8b-1511-4a95-b287-9b7de212d5e3</gpml:identity>
-            <gpml:revision>GPlates-0d014642-af15-445f-a9fd-70735aad10bb</gpml:revision>
+            <gpml:revision>GPlates-c902a034-059a-4a8f-b7da-50d47b0e230f</gpml:revision>
             <gml:name>MOR 1500 ii</gml:name>
             <gml:validTime>
                 <gml:TimePeriod>
@@ -69,7 +69,7 @@
                 </gml:TimeInstant>
             </gpml:geometryImportTime>
             <gpml:reconstructionMethod>HalfStageRotationVersion3</gpml:reconstructionMethod>
-            <gpml:leftPlate>1000</gpml:leftPlate>
+            <gpml:leftPlate>800</gpml:leftPlate>
             <gpml:rightPlate>300</gpml:rightPlate>
             <gpml:centerLineOf>
                 <gpml:ConstantValue>
@@ -78,6 +78,50 @@
                             <gml:baseCurve>
                                 <gml:LineString>
                                     <gml:posList gml:dimension="2">-22.520886426008342 -41.167378143841162 -18.257717232656208 -52.586649273146605 -21.862351928552414 -66.863895649920792 </gml:posList>
+                                </gml:LineString>
+                            </gml:baseCurve>
+                        </gml:OrientableCurve>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:OrientableCurve</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:centerLineOf>
+        </gpml:MidOceanRidge>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:MidOceanRidge>
+            <gpml:identity>GPlates-9ef17977-d161-4baa-a850-91223b846409</gpml:identity>
+            <gpml:revision>GPlates-ab874135-a080-438d-90a0-675ca771d11a</gpml:revision>
+            <gml:name>MOR 1455</gml:name>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">1455</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <gpml:geometryImportTime>
+                <gml:TimeInstant>
+                    <gml:timePosition gml:frame="http://gplates.org/TRS/flat">1455</gml:timePosition>
+                </gml:TimeInstant>
+            </gpml:geometryImportTime>
+            <gpml:reconstructionMethod>HalfStageRotationVersion3</gpml:reconstructionMethod>
+            <gpml:leftPlate>800</gpml:leftPlate>
+            <gpml:rightPlate>1000</gpml:rightPlate>
+            <gpml:centerLineOf>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:OrientableCurve gml:orientation="+">
+                            <gml:baseCurve>
+                                <gml:LineString>
+                                    <gml:posList gml:dimension="2">35.097389677478077 -40.470827125184755 23.48834238896718 -37.54895465407013 12.453129684217572 -39.422020450426338 9.9155434801518769 -30.310689713311255 1.6747840999262866 -27.50121072705975 -5.1854950768650161 -21.019348587669242 </gml:posList>
                                 </gml:LineString>
                             </gml:baseCurve>
                         </gml:OrientableCurve>

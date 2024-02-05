@@ -3,7 +3,8 @@
 200  0.0   90.0    0.0    0.0  1000 ! Craton B end
 200 1500.0   90.0    0.0    0.0  1000 ! Craton B start - follows C
 300  0.0   90.0    0.0    0.0  000 ! Craton C end
-300 1.0    8.9524  100.0344   15.8074  000 ! Drift correction
+300  1.0    10.5489   89.6803   31.6678  000 ! Drift correction
+300 1410.0   10.5489   89.6803   31.6678  000 !
 300 1455.0    8.9524  100.0344   15.8074  000 !
 300 1500.0   90.0    0.0    0.0  000 ! Craton C start
 400  0.0   90.0    0.0    0.0  300 ! Craton D end
@@ -12,17 +13,24 @@
 500 1500.0   90.0    0.0    0.0  300 ! Craton E start - follows C
 600  0.0   90.0    0.0    0.0  300 ! Craton F end
 600 1500.0   90.0    0.0    0.0  300 ! Craton F start - follows C
-700  0.0   90.0    0.0    0.0  1000 ! Craton G end
+700  0.0   90.0    0.0    0.0  800 ! Craton G end
+700 1455.0   90.0    0.0    0.0  800 ! Start following H
+700 1455.0   90.0    0.0    0.0  1000 ! Stop following L
 700 1500.0   90.0    0.0    0.0  1000 ! Craton G start - follows L
-800  0.0   90.0    0.0    0.0  1000 ! Craton H end
+800  0.0   90.0    0.0    0.0  000 ! Craton H end
+800  1.0    46.3659   25.1454  -26.0993  000 ! Drift correction
+800 1410.0   46.3659   25.1454  -26.0993  000 !
+800 1455.0    9.015   16.3328  -17.0261  000 ! Start moving independently
+800 1455.0   90.0    0.0    0.0  1000 ! Stop following L
 800 1500.0   90.0    0.0    0.0  1000 ! Craton H start - follows L
 900  0.0   90.0    0.0    0.0  1000 ! Craton J end
 900 1500.0   90.0    0.0    0.0  1000 ! Craton J start - follows L
 1000  0.0   90.0    0.0    0.0  000 ! Craton L end
-1000 1.0    9.015   16.3328  -17.0261  000 ! Drift correction
+1000  1.0    5.4168    9.462  -31.4526  000 ! Drift correction
+1000 1410.0    5.4168    9.462  -31.4526  000 !
 1000 1455.0    9.015   16.3328  -17.0261  000 !
 1000 1500.0   90.0    0.0    0.0  000 ! Craton L start
 1100  0.0   90.0    0.0    0.0  000 ! Ocean crust I end
-1100 1.0   55.6935  -58.7939  -42.3348  000 ! Drift correction
+1100  1.0   55.6935  -58.7939  -42.3348  000 ! Drift correction
 1100 1455.0   55.6935  -58.7939  -42.3348  000 !
 1100 1500.0   90.0    0.0    0.0  000 ! Ocean crust I start
